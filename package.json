@@ -1,0 +1,16 @@
+{
+  "name": "railway-translate-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "שירות שמתרגם תמונות דרך גוגל תרגום בדפדפן headless ומחזיר את התמונה המתורגמת",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  }
+}
